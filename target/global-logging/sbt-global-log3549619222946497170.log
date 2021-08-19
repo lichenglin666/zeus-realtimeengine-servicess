@@ -1,0 +1,66 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.3 (Oracle Corporation Java 1.8.0_261)
+[debug] Load.defaultLoad until apply took 177.1262ms
+[debug]           Load.loadUnit: plugins took 96.1618ms
+[debug]           Load.loadUnit: defsScala took 0.4953ms
+[debug] [Loading] Scanning directory D:\JavaWorkSpace\zeus-realtimeengine-services\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\JavaWorkSpace\zeus-realtimeengine-services\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.1567 ms
+[debug]               Load.resolveProject(zeus-realtimeengine-services-build) took 47.4485ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id zeus-realtimeengine-services-build, base: D:\JavaWorkSpace\zeus-realtimeengine-services\project, plugins: List(<none>))) took 103.8062ms
+[debug] [Loading] Done in D:\JavaWorkSpace\zeus-realtimeengine-services\project, returning: (zeus-realtimeengine-services-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 132.4218ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.24ms
+[debug]         Load.loadUnit(file:/D:/JavaWorkSpace/zeus-realtimeengine-services/project/, ...) took 236.9921ms
+[debug]       Load.apply: load took 365.7309ms
+[debug]       Load.apply: resolveProjects took 5.3436ms
+[debug]       Load.apply: finalTransforms took 45.3074ms
+[debug]       Load.apply: config.delegates took 6.9716ms
+[debug]       Load.apply: Def.make(settings)... took 5391.2814ms
+[debug]       Load.apply: structureIndex took 82.5495ms
+[debug]       Load.apply: mkStreams took 1.9533ms
+[info] loading project definition from D:\JavaWorkSpace\zeus-realtimeengine-services\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 334695.6146ms
+[debug]     Load.loadUnit: defsScala took 0.002ms
+[debug] [Loading] Scanning directory D:\JavaWorkSpace\zeus-realtimeengine-services
+[debug]       Load.loadUnit: mkEval took 6.976ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\JavaWorkSpace\zeus-realtimeengine-services, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6341 ms
+[info] loading settings for project zeus-realtimeengine-services from build.sbt ...
+[debug]         Load.resolveProject(zeus-realtimeengine-services) took 3.1719ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id zeus-realtimeengine-services, base: D:\JavaWorkSpace\zeus-realtimeengine-services, plugins: List(<none>))) took 5.4012ms
+[debug] [Loading] Done in D:\JavaWorkSpace\zeus-realtimeengine-services, returning: (zeus-realtimeengine-services)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1691.1928ms
+[debug]     Load.loadUnit: cleanEvalClasses took 4.1247ms
+[debug]   Load.loadUnit(file:/D:/JavaWorkSpace/zeus-realtimeengine-services/, ...) took 336392.0924ms
+[debug] Load.apply: load took 336410.4035ms
+[debug] Load.apply: resolveProjects took 0.0839ms
+[debug] Load.apply: finalTransforms took 6.5874ms
+[debug] Load.apply: config.delegates took 0.4587ms
+[debug] Load.apply: Def.make(settings)... took 58.2394ms
+[debug] Load.apply: structureIndex took 35.2917ms
+[debug] Load.apply: mkStreams took 0.004ms
+[info] set current project to zeus-realtimeengine-services (in build file:/D:/JavaWorkSpace/zeus-realtimeengine-services/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-fa1b1968522b13c4b1c0
+[info] started sbt server
